@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="623.0" style="-fx-background-color: ffd15d;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pengacak.bangku.HasilController">
+   <children>
+      <ImageView fitHeight="504.0" fitWidth="623.0">
+         <image>
+            <Image url="@../../gambar/kelas_2.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="83.0" prefHeight="48.0" prefWidth="458.0" style="-fx-background-color: chocolate;">
+         <children>
+            <Label layoutX="155.0" layoutY="6.0" text="PAPAN TULIS" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="478.0" layoutY="75.0" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: chocolate;">
+         <children>
+            <Label layoutX="25.0" layoutY="4.0" text="MEJA GURU" textFill="#fff8f8" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="Keluar" layoutX="407.0" layoutY="460.0" mnemonicParsing="false" onAction="#BtnKeluar" style="-fx-background-color: #8c8c8c;" text="Keluar" textFill="WHITE" />
+      <Button fx:id="Acak" layoutX="480.0" layoutY="460.0" mnemonicParsing="false" onAction="#BtnAcak" style="-fx-background-color: #8c8c8c;" text="Acak" textFill="WHITE" />
+      <GridPane layoutX="14.0" layoutY="126.0" prefHeight="308.0" prefWidth="620.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="84.0" minWidth="10.0" prefWidth="75.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="63.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="118.0" minWidth="10.0" prefWidth="68.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="15.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.0" minWidth="10.0" prefWidth="85.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.0" minWidth="10.0" prefWidth="79.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.0" minWidth="10.0" prefWidth="25.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="234.0" minWidth="10.0" prefWidth="77.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="131.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="10.0" prefWidth="78.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="4.0" prefWidth="24.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="107.0" minWidth="10.0" prefWidth="85.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="10.0" prefWidth="76.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="32.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="siswa1" />
+            <TextField fx:id="siswa2" GridPane.columnIndex="2" />
+            <TextField fx:id="siswa11" GridPane.columnIndex="4" />
+            <TextField fx:id="siswa12" GridPane.columnIndex="6" />
+            <TextField fx:id="siswa21" GridPane.columnIndex="8" />
+            <TextField fx:id="siswa22" GridPane.columnIndex="10" />
+            <TextField fx:id="siswa31" GridPane.columnIndex="12" />
+            <TextField fx:id="siswa32" GridPane.columnIndex="14" />
+            <TextField fx:id="siswa3" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa4" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa13" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa14" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa23" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa24" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa33" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa34" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+            <TextField fx:id="siswa5" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa15" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa16" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa25" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa26" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa35" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa36" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+            <TextField fx:id="siswa7" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa8" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa17" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa18" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa27" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa28" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa37" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa38" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+            <TextField fx:id="siswa9" GridPane.rowIndex="4" />
+            <TextField fx:id="siswa10" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextField fx:id="siswa19" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <TextField fx:id="siswa20" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <TextField fx:id="siswa29" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <TextField fx:id="siswa30" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Button fx:id="Menu" layoutX="542.0" layoutY="460.0" mnemonicParsing="false" onAction="#BtnMenu" style="-fx-background-color: #8c8c8c;" text="Menu" textFill="WHITE" />
+   </children>
+</AnchorPane>
